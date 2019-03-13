@@ -1,0 +1,23 @@
+{
+  "name": "failover",
+  "version": "1.0.0",
+  "description": "map3 fialover",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 9000",
+    "webpack": "webpack"
+  },
+  "author": "moo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.15.1",
+    "eslint-loader": "^2.1.2",
+    "http-server": "^0.11.1",
+    "jshint-loader": "^0.8.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
