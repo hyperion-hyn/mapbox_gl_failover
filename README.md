@@ -7,7 +7,7 @@ We developed a package to enable the Mapbox-GL sdk to achieve robust tile servic
 - then select a candidate and try getting the tile. 
 - if the candidate fails, fail-over to the next one.
 
-Check the mapbox-patch.js for more information.
+Check the mapbox_patch.js for more information.
 
 ## how to build
 
