@@ -13,9 +13,9 @@ if (window.mapboxgl) {
     window.mapboxgl.workerUrl = window.URL.createObjectURL(new Blob([workerBundleString], {
       type: 'text/javascript'
     }));
-    console.log('patch map3 failover success!')
+    console.info('%c patch map3 failover success!', 'color: #12b439')
   }
 } else {
-  console.log('Patch map3 failover fail, can not find mapboxgl!')
+  console.warn('%c Patch map3 failover fail, can not find mapboxgl!', 'color: #c70000')
 }
 
