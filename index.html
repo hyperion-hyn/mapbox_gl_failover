@@ -27,17 +27,16 @@
 
   <div id='map'></div>
   <script>
-    // mapboxgl.accessToken = 'pk.eyJ1IjoiaHlwZXJpb25sYWIiLCJhIjoiY2pwYXNvbTJiMm90ZjNxcDd3Y3kxNGtmYiJ9.s-np__x-B_MgHvp06NxV5w';
-    let styleUrl = 'https://static.hyn.space/maptiles/see-it-all.json';
+    let styleUrl = 'https://static.hyn.space/maptiles/see-it-all.json'; //map3 style
     // mapboxgl.accessToken = 'your mapbox access token or null';
-    mapboxgl.workerCount = 1;
+    mapboxgl.workerCount = 1; //just for test, you dont't have to set this normally. 
     var map = new mapboxgl.Map({
       container: 'map', // container id
       // style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
       style: styleUrl, // stylesheet location
       center: [113.327356, 23.122592], // starting position [lng, lat]
       zoom: 9, // starting zoom
-      localIdeographFontFamily: "'Noto Sans', 'Noto Sans CJK SC', sans-serif"
+      localIdeographFontFamily: "'Noto Sans', 'Noto Sans CJK SC', sans-serif" //use local font first
     });
   </script>
 
